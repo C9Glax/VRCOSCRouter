@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="GlaxOSC">
+        <HintPath>..\..\GlaxOSC\GlaxOSC\bin\Debug\net7.0\GlaxOSC.dll</HintPath>
+      </Reference>
+      <Reference Include="vrc-oscquery-lib">
+        <HintPath>..\..\vrc-oscquery-lib\vrc-oscquery-lib\bin\Debug\net6.0\vrc-oscquery-lib.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="BuildSoft.OscCore" Version="1.2.1.1" />
+      <PackageReference Include="GlaxLogger" Version="1.0.7.2" />
+      <PackageReference Include="MeaMod.DNS" Version="1.0.70" />
+      <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.0" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    </ItemGroup>
+
+</Project>

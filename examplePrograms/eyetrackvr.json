@@ -1,0 +1,33 @@
+{
+	"Name": "EyeTrackVR",
+	"Ip": "127.0.0.1",
+	"SendPort": 8000,
+	"ReceivePort": 8001,
+	"Endpoints": [
+		{
+			"VrcEndpoint": "/avatar/parameters/FT/v2/LeftEyeX",
+			"ProgramEndpoint": "/avatar/parameters/LeftEyeX",
+			"Type": "System.Single"
+		},
+		{
+			"VrcEndpoint": "/avatar/parameters/FT/v2/RightEyeX",
+			"ProgramEndpoint": "/avatar/parameters/RightEyeX",
+			"Type": "System.Single"
+		},
+		{
+			"VrcEndpoint": "/avatar/parameters/FT/v2/EyesY",
+			"ProgramEndpoint": "/avatar/parameters/EyesY",
+			"Type": "System.Single"
+		},
+		{
+			"VrcEndpoint": "/avatar/parameters/FT/v2/EyeLidLeft",
+			"ProgramEndpoint": "/avatar/parameters/LeftEyeLidExpandedSqueeze",
+			"Type": "System.Single"
+		},
+		{
+			"VrcEndpoint": "/avatar/parameters/FT/v2/EyeLidRight",
+			"ProgramEndpoint": "/avatar/parameters/RightEyeLidExpandedSqueeze",
+			"Type": "System.Single"
+		},
+	]
+}
