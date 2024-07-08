@@ -28,6 +28,6 @@
 			"VrcEndpoint": "/avatar/parameters/FT/v2/EyeLidRight",
 			"ProgramEndpoint": "/avatar/parameters/RightEyeLidExpandedSqueeze",
 			"Type": "System.Single"
-		},
+		}
 	]
 }
