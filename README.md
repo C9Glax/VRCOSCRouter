@@ -1,8 +1,14 @@
 # VRCOSCRouter
 
 Simple OSC-Router for OSC-Programs that do not use OSC-Query.
+Can also translate Endpoint names for programs that have hard-coded parameters.
 
-## Example `Program.json`
+## Usage
+
+Place as many `xxx.json` files as you want in the same folder as the executable.
+Each file represents a OSC-Program you want to route.
+
+### Example `Program.json`
 
 ```json
 {
